@@ -1,0 +1,20 @@
+#TERM PROJECT
+#CS630002-Operating Systems Design
+#Name: Jaya Sathwika Gadi
+#UCID: jg899
+#compile
+make
+#run
+./shell
+Description:
+Below mentioned features are implemented in the program.
+1. Exit command: program exits on entering 'exit' command 
+2. Running in background: child process runs in background on adding '&' 
+3. History feature: 
+ case:1: shows recently entered 10 commands 
+ case 2: history_count > 10 
+4. Recent command entered: executes recent command on '!!' 
+5. Executing Nth command in history: on entering '!N', where 'N' is the history index 
+6. Error on entering invalid command in command line 
+7. Error on entering '!!' as the first command (when there is no command in history) 
+8. Error on entering '!N' when Nth index is greater than 10
